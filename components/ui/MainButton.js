@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     margin: 4,
   },
   buttonText: {
-    color: "white",
+    color: "black",
     textAlign: "center",
   },
   pressed: {

@@ -38,8 +38,8 @@ export default function App() {
   return (
     <LinearGradient colors={[Colors.primary700, Colors.accent]} style={styles.rootScreen}>
       <ImageBackground
-        source={require("./assets/images/background.png")}
-        resizeMode="cover"
+        source={require("./assets/images/background.jpg")}
+        resizeMode="center"
         style={styles.rootScreen}
         imageStyle={styles.backgroundImage}
       >
@@ -52,6 +52,8 @@ export default function App() {
 const styles = StyleSheet.create({
   rootScreen: {
     flex: 1,
+    justifyContent: 'flex-end',
+    paddingBottom: 30,
   },
   backgroundImage: {
     opacity: 0.15,

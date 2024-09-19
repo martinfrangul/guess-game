@@ -83,6 +83,8 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     padding: 24,
+    justifyContent: 'flex-end',
+    paddingBottom: 30,
   },
 });
 
