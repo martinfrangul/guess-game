@@ -1,13 +1,7 @@
 import { Text } from "react-native";
 
 const GameOverScreen = () => {
-    return ( 
+  return <Text>GameOVER</Text>;
+};
 
-        <Text> 
-            GameOVER
-        </Text>
-        
-     );
-}
- 
 export default GameOverScreen;
